@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08ae5a1-3d82-4cd4-9228-803690b90046" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baidu_verify_zDZc6aP2R4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youxiaobing.github.com.iws" />
@@ -386,7 +384,7 @@
       <created>1457447018001</created>
       <option name="number" value="Default" />
       <updated>1457447018001</updated>
-      <workItem from="1457447018622" duration="1547000" />
+      <workItem from="1457447018622" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1457447700908</created>
@@ -406,11 +404,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457448360814</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1457448571954</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457448571954</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1547000" />
+    <option name="totallyTimeSpent" value="1586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-116" width="1920" height="1057" extended-state="6" />
