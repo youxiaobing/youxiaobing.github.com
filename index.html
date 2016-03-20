@@ -1,6 +1,110 @@
----
-layout: default
----
-<div id="home" class="container">
-  <h1>hi</h1>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <!--[if lte IE 9]>
+    <meta http-equiv="refresh" content="0;url=/ie.html"><![endif]--> <title>Peiwen Lu</title>
+    <meta name="description" content="Peiwen Lu's front-end blog.">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600|Droid+Sans+Mono' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://peiwen.lu/">
+    <link rel="alternate" type="application/rss+xml" title="Peiwen Lu" href="http://peiwen.lu/feed.xml"/>
+    <script src="/assets/js/prefixfree.js"></script>
+</head>
+<body>
+<aside id="sidebar">
+    <div id="sidebar-left"><a id="sidebar-avatar" href="/"> <img id="sidebar-avatar-img" alt=""
+                                                                 src="/assets/img/avatar.jpg"/> </a>
+
+        <div id="sidebar-social"><a href="/feed.xml" class="sidebar-social-icon feed"></a> <a
+                href="mailto:&#104;&#105;&#064;&#112;&#101;&#105;&#119;&#101;&#110;&#046;&#108;&#117;"
+                class="sidebar-social-icon email"></a> <a href="https://twitter.com/PeiwenLu"
+                                                          class="sidebar-social-icon twitter" target="_blank"></a> <a
+                href="https://github.com/P233" class="sidebar-social-icon github" target="_blank"></a> <a
+                href="http://codepen.io/P233" class="sidebar-social-icon codepen" target="_blank"></a></div>
+        <ul id="sidebar-tags">
+            <li class="sidebar-tag active" data-filter="all">全部文章</li>
+            <li class="sidebar-tag" data-filter="杂货箱">杂货箱</li>
+            <li class="sidebar-tag" data-filter="CSS">CSS</li>
+            <li class="sidebar-tag" data-filter="Sass">Sass</li>
+            <li class="sidebar-tag" data-filter="Codepen">Codepen</li>
+        </ul>
+    </div>
+    <div id="sidebar-right">
+        <div id="search-box"><input id="search-input" type="text" placeholder="Search"/></div>
+        <nav id="toc"><a class="toc-link" data-tags="Sass" href="/2015/rebar-grid-framework"> Rebar Grid Framework </a>
+            <a class="toc-link" data-tags="杂货箱" href="/2013/learning-with-xslt"> XSLT 学习笔记 </a> <a class="toc-link"
+                                                                                                   data-tags="Sass"
+                                                                                                   href="/2013/how-to-structure-a-sass-project">
+                如何管理 Sass 文件结构 </a> <a class="toc-link" data-tags="" href="/2013/symphony-cms-debug-bookmarklet">
+                Symphony CMS debug bookmarklet </a> <a class="toc-link" data-tags="Codepen"
+                                                       href="/2013/3d-working-robot"> CSS 3D Walking Robot </a> <a
+                    class="toc-link" data-tags="Codepen" href="/2013/pure-css-keyboard"> Pure CSS Happy Hacking
+                Keyboard </a> <a class="toc-link" data-tags="Codepen" href="/2013/vim-shortcuts"> Vim Keyboard
+                Shortcuts </a> <a class="toc-link" data-tags="Codepen" href="/2013/css3-timeline"> CSS3 Timeline </a> <a
+                    class="toc-link" data-tags="CSS" href="/2013/visited-selector"> Visited 选择器的使用限制 </a> <a
+                    class="toc-link" data-tags="杂货箱" href="/2013/sublime-text-settings"> Sublime Text 设置 </a> <a
+                    class="toc-link" data-tags="CSS" href="/2013/css-performance-2"> 关注 CSS 性能 (二) </a> <a
+                    class="toc-link" data-tags="Codepen" href="/2013/css3-slider-practice"> CSS3 Slider 模仿练习 </a> <a
+                    class="toc-link" data-tags="CSS" href="/2013/ie10-placeholder"> IE10 的 placeholder 伪类问题 </a> <a
+                    class="toc-link" data-tags="杂货箱" href="/2013/jekyll-alfred-extensions"> Jekyll Alfred 2
+                Workflows </a> <a class="toc-link" data-tags="CSS" href="/2013/css-selectors-must-memorize"> 牢记 31 种 CSS
+                选择器用法 </a> <a class="toc-link" data-tags="Sass" href="/2013/sass-chinese-reference"> Sass 官方文档翻译 </a> <a
+                    class="toc-link" data-tags="CSS" href="/2013/css-transitions"> 关于 CSS Transition 的一切 </a> <a
+                    class="toc-link" data-tags="CSS" href="/2013/css-performance"> 关注 CSS 性能 (一) </a> <a
+                    class="toc-link" data-tags="CSS" href="/2013/browser-specific-hacks"> CSS 判断浏览器方法整理 </a> <a
+                    class="toc-link" data-tags="杂货箱" href="/2013/sync-application-preferences"> 用 Dropbox 同步 Mac
+                软件设置 </a> <a class="toc-link" data-tags="杂货箱" href="/2013/blogging-with-jekyll"> 使用 Jekyll 写博客 </a>
+        </nav>
+    </div>
+</aside>
+<main id="main">
+    <div id="home" class="container"><h1>Hi，我是 Peiwen Lu</h1>
+
+        <p>我是一名前端 / 孜孜不倦的折腾爱好者。</p>
+
+        <h2>/* 折腾项目 *\</h2>
+        <ul>
+            <li><a href="http://rebar.io" target="_blank">Rebar Grid Framework</a></li>
+            <li><a href="https://github.com/P233/Syntax-highlighting-for-Sass" target="_blank">Syntax Highlighting for
+                Sass</a></li>
+            <li><a href="https://github.com/P233/Syntax-highlighting-for-JavaScript" target="_blank">Syntax Highlighting
+                for JavaScript</a></li>
+            <li><a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a> <span>/</span> <a
+                    href="https://github.com/P233/3-Ghost" target="_blank">3-Ghost</a></li>
+            <li><a href="http://p233.github.io/Emmet-Css-Snippets-for-Sublime-Text-2/" target="_blank">Emmet CSS
+                Snippets</a></li>
+            <li><a href="https://github.com/P233?tab=repositories" target="_blank">更多...</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="container"><p class="footer-entry">All content is licensed under <a
+                href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a></p>
+
+            <p class="footer-entry">Buit with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a
+                    href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll theme</a> • Hosted on <a
+                    href="https://pages.github.com/" target="_blank">Github</a></p></div>
+    </div>
+</main>
+<button id="menu"><span id="menu-icons"></span></button>
+<script src="/assets/js/jquery-2.1.3.min.js"></script>
+<script src="/assets/js/jquery.pjax.js"></script>
+<script src="/assets/js/nprogress.js"></script>
+<script src="/assets/js/main.js"></script>
+<script> (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-60830414-1', 'auto');
+ga('send', 'pageview'); </script>
+</body>
+</html>
